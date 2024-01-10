@@ -1,0 +1,77 @@
+.section-bienvenu-cila-bok{
+    width: 100%;
+    height: 43.75rem;
+    background-color: #F2F3FA;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.box-presentation{
+    width: 45%;
+    height: 37.75rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+}
+.box-image-presentation{
+    width: 45%;
+    height: 37.75rem;
+    background-image: url("/img/copain4png\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(2);
+    margin-top: -2rem;
+}
+.box-presentation .box-contain-title{
+    width: 80%;
+    height: 180px;  
+}
+.box-presentation .box-contain-texte{
+    width: 80%;
+    height: 180px;
+}
+.button-demo{
+    padding: 0.5rem 2.5rem;
+    background-color: #1D1F45;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-contain-title .title{
+    font-size: 3.4375rem;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.title .under{
+    font-size: 3.4375rem;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #0C192E;
+}
+.title .down{
+    font-size: 3.4375rem;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #F39200;
+}
+
+.box-contain-texte{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
