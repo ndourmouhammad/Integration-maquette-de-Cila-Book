@@ -1,0 +1,164 @@
+.contact {
+    background: url(img/white-paper-texture-background\ copie\ 4\ 1.png);
+    width: 100%;
+
+flex-shrink: 0;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 15.494rem;
+
+}
+.contact .bordure-lien {
+    width: 91.125rem;
+height: 4.125rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+background: #F39200;
+
+margin: 0 auto;
+text-align: center;
+position: relative;
+top: 4.875rem;
+
+}
+.contact .bordure-lien a {
+    color: #FFF;
+font-family: Poppins;
+font-size: 2.1875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+
+}
+.flex-contact {
+   
+    width: 98.61013rem;
+height: 43.9375rem;
+flex-shrink: 0;
+margin: 0 auto;
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 15rem;
+gap: 1rem;
+}
+.contact-et-localisation {
+display: flex;
+flex-direction: column;
+width: 20.1875rem;
+height: 43.8125rem;
+
+margin-bottom: 15rem;
+}
+.form {
+    
+    width: 50.79763rem;
+    height: 43.8125rem;
+flex-shrink: 0;
+margin-top: 5rem;
+}
+.telephone, .mail, .localisation {
+    display: flex;
+    flex-direction: column;
+    
+}
+.telephone img, .mail img, .localisation img {
+    width: 5.53731rem;
+height: 5.53731rem;
+flex-shrink: 0;
+position: relative;
+top: 2.5rem;
+left: 7.5rem;
+}
+.container {
+    width: 19.875rem;
+height: 10.9375rem;
+flex-shrink: 0;
+background: #0C192E;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.telephone .container a, .mail .container a, .localisation .container p {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.formulaire-nom, .formulaire-mail, .formulaire-telephone, .formulaire-message{
+    display: flex;
+    flex-direction: column;
+}
+.formulaire-nom label, .formulaire-mail label, .formulaire-telephone label {
+    width: 12.47438rem;
+height: 2.30175rem;
+flex-shrink: 0;
+color: #000;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.formulaire-nom label .asterisque, .formulaire-mail label .asterisque, .formulaire-telephone label .asterisque, .formulaire-message label .asterisque {
+    
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.asterisque-obligatoire{
+    color: #C70505;
+}
+
+.formulaire-nom input, .formulaire-mail input, .formulaire-telephone input {
+    width: 50.666rem;
+height: 3.09263rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+border: 1px solid #ADADAD;
+background: #FFF;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
+margin-bottom: 2rem;
+}
+.formulaire-message textarea {
+    width: 50.666rem;
+height: 11.515rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+border: 1px solid #ADADAD;
+background: #FFF;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
+}
+.formulaire-message textarea {
+    color: #ADADAD;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 300;
+line-height: 178.5%; /* 1.67344rem */
+margin-bottom: 3rem;
+}
+input[type="submit"] {
+    width: 50.666rem;
+height: 5.09263rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: #0C192E;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 178.5%; /* 2.23125rem */
+cursor: pointer;
+}

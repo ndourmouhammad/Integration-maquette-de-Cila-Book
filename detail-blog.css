@@ -1,0 +1,40 @@
+
+.debutdiv{
+    margin-left: 5rem;
+    width: 52.9375rem;
+height: 45.3125rem;
+flex-shrink: 0;
+}
+.titre1b{
+    
+    width: 49.3125rem;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.875rem; /* 100% */
+}
+    .lien1b{
+        display: flex;
+        width: 10.6875rem;
+        height: 1.45rem;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45rem; /* 145% */
+text-decoration: none;
+}
+    .imageb1{
+        width: 52.75rem;
+height: 35.625rem;
+flex-shrink: 0;
+margin-top: 2rem;
+        
+} 
+
