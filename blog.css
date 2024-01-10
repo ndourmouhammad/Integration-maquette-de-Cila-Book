@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/* Bannière de la page blog*/
+.banniere-blog {
+    display: flex;
+  width: 100%;
+  height: 11.75rem;
+  flex-shrink: 0;
+  background: url(img/Rectangle\ 23931.png),
+    lightgray -8.044px -394.059px / 100% 510.701% no-repeat;
+    justify-content: center;
+  align-items: center;
+}
+.banniere-blog h1 {
+  display: flex;
+  width: 10.4375rem;
+  height: 2.875rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #f39200;
+  font-family: Poppins;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.4375rem; /* 65% */
+ 
+}
+
+
+/* Section Articles de la page blog*/
+
+.bloc-articles {
+    width: 98%;
+    margin: 0 auto;
+height: 97.75rem;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+}
+.article1 {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+    margin-top: 2rem;
+}
+.image-article1 {
+    width: 40.53613rem;
+height: 27.33294rem;
+flex-shrink: 0;
+background: url(img/childcare-template-blog-img-2.jpg.png), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.texte-article1 h1{
+    display: flex;
+    width: 41.81013rem;
+    height: 5.21181rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.875rem; /* 100% */
+}
+.date-article1 {
+    display: flex;
+width: 12.75rem;
+height: 1.375rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45rem; /* 145% */
+}
+.texte-article1 p {
+    margin-top: 2.5rem;
+    display: flex;
+width: 39.08844rem;
+height: 7.41231rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+}
+.texte-article1 a {
+    margin-top: 5rem;
+    text-decoration: none;
+    display: flex;
+width: 7.4375rem;
+height: 1.5rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+}
+.ligne {
+    width: 36.77863rem;
+height: 0.0625rem;
+background: #F39200;
+margin-top: 4rem;
+}
+.article2 {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+.image-article2 {
+    width: 40.53613rem;
+height: 27.33294rem;
+flex-shrink: 0;
+background: url(img/childcare-template-blog-img-2.jpg\ \(1\).png), lightgray 0px 0px / 100% 100% no-repeat;
+}
+.texte-article2 h1 {
+    display: flex;
+width: 41.81013rem;
+height: 6.77531rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.4375rem; /* 130% */
+}
+
+.date-article2 {
+    display: flex;
+width: 12.73994rem;
+height: 1.33188rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45rem; /* 145% */
+}
+.texte-article2 p {
+    
+    display: flex;
+width: 39.08844rem;
+height: 10.42356rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+}
+.texte-article2 a {
+    text-decoration: none;
+    display: flex;
+    width: 9.6875rem;
+    height: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+margin-top: 3.5rem;
+}
+.article3 {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.image-article3 {
+    width: 40.53613rem;
+height: 27.33294rem;
+flex-shrink: 0;
+background: url(img/childcare-template-blog-img-2.jpg\ \(2\).png), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.texte-article3 h1 {
+    margin-bottom: 2rem;
+    display: flex;
+width: 41.81013rem;
+height: 4.51688rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.4375rem; /* 130% */
+}
+
+.date-article3 {
+    display: flex;
+width: 12.27669rem;
+height: 1.33188rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.45rem; /* 145% */
+}
+.texte-article3 p {
+    margin-top: 2.5rem;
+    display: flex;
+width: 39.08844rem;
+height: 7.41231rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+}
+.texte-article3 a {
+    text-decoration: none;
+    display: flex;
+width: 6.6875rem;
+height: 1.5rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #6369D1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+margin-top: 4rem;
+}
