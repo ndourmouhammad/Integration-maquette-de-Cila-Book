@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+    font-family: Poppins;
+background: #FFF;
+
+}
+
+/* Section header*/
+
+header{
+
+    width: 100%;
+    
+height: 6.5625rem;
+flex-shrink: 0;
+background: #0C192E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .container-logo {
+        background: url(img/bleu_logo-removebg-preview\ 2.svg),  50% / cover no-repeat;
+        width: 8.6875rem;
+height: 6.125rem;
+flex-shrink: 0;
+    }
+    
+    
+    
+    nav {
+        text-align: center; 
+    }
+    
+    
+    nav a {
+        text-decoration: none; 
+        margin: 0 1.3rem; 
+        text-align: left;
+        color: #FFF;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 600;
+line-height: 5rem; /* 533.333% */
+        
+    }
+
+    nav a.active {
+        color: #F39200;
+        font-family: Poppins;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5rem; /* 533.333% */
+    }
+    
+    
+    .container-social-media {
+        width: 11.5rem;
+height: 1.6875rem;
+flex-shrink: 0;
+background: url(img/icone\ réeaux.svg);
+    }
+    
+    
+    .icone-social-media {
+       
+        margin: 0 0.6rem; 
+    }
+
+/*Section footer*/
+footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-light {
+    width: 100%;
+height: 11.8125rem;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+display: flex;
+flex-direction: column;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    
+}
+.newsletter p {
+    width: 15.1875rem;
+height: 1.875rem;
+flex-shrink: 0;
+color: #0C192E;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.newsletter .inputs {
+    width: 31.1875rem;
+height: 3.125rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: #F2F3FA;
+}
+.newsletter .inputs label {
+    color: #575757;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 2rem;
+
+}
+.newsletter .inputs .submit-input {
+    width: 8.9375rem;
+height: 2.5rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: #F39200;
+color: #FFF;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 6rem;
+border: #F39200 solid 0.1rem;
+margin-top: 0.3rem;
+}
+.footer-dark {
+    width: 100%;
+height: 6.4375rem;
+flex-shrink: 0;
+background: #0C192E;
+display: flex;
+justify-content: space-evenly;
+}
+.footer-ligne {
+    width: 81.25rem;
+height: 0.0625rem;
+flex-shrink: 0;
+background: rgba(0, 33, 74, 0.20);
+margin-left: 15rem;
+}   
+.politique-mention-cookies-faq {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+} 
+.politique-mention-cookies-faq p {
+    height: 1.875rem;
+    color: #00214A;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-dark .logo-footer{
+    width: 8.6875rem;
+height: 6.125rem;
+flex-shrink: 0;
+background: url(img/bleu_logo-removebg-preview\ 2.svg), 50% / cover no-repeat;
+}
+.footer-dark p {
+    width: 34.375rem;
+height: 1.5rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 2.5rem;
+}
+.social-media-footer {
+    width: 13.875rem;
+height: 2rem;
+flex-shrink: 0;
+background: url(img/Reseau\ sociaux.svg), 50% / cover no-repeat;
+margin-right: 5rem;
+margin-top: 2rem;
+}
