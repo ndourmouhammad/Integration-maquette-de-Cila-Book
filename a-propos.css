@@ -1,0 +1,78 @@
+.S-apropos {
+margin-top: -3rem;
+}
+.main-image{
+    width: 100%;
+height: 30rem;
+flex-shrink: 0; 
+background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img/Rectangle\ 8.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-image h1{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.6rem; /* 120% */ 
+padding: 14rem 38.25rem 17.325rem 39.125rem;
+}
+
+.card-apropos{
+    width: 21.563rem;
+height: 16.313;
+flex-shrink: 0;
+background: rgba(12, 25, 46, 0.99);
+box-shadow: 0rem 0.25rem 1.25rem 0rem rgba(0, 0, 0, 0.50);
+padding-left: 2.063rem;
+padding-top: 2.875rem;
+}
+.trais{
+    width: 3.375rem;
+height: 0.313rem;
+background: #EDEEF1;
+}
+.orange{
+    display: flex;
+width: 7.5rem;
+height: 2.063rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #F39200;
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.45rem; /* 140% */
+}
+.card-apropos p{
+    display: flex;
+width: 17.992rem;
+height: 6.315rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #EDEEF1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 1.6rem; /* 160% */
+padding-bottom: 2.639rem;
+
+}
+.apropos{
+    display: flex;
+width: 62.063rem;
+height: 17rem;
+flex-shrink: 0; 
+gap: 2.125rem;
+position: relative;
+top: -6.25rem;
+margin: auto;
+
+}
