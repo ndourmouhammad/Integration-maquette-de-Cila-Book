@@ -1,5 +1,6 @@
 
-.debutdiv{
+
+.container-decouverte-de-la-cilabok{
     margin-left: 5rem;
     width: 52.9375rem;
 height: 45.3125rem;
@@ -37,4 +38,186 @@ flex-shrink: 0;
 margin-top: 2rem;
         
 } 
+.decouvert_ci_la_book{
+    margin-left: 5rem;
+    width: 79.6875rem;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.6rem; /* 128% */
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem;
 
+}
+/*2*/
+.container-all-image-reseau{
+    margin-left: 5rem;
+    width: 14.37881rem;
+    height: 3.0235rem;
+    flex-shrink: 0;
+    color: #F39200;
+}
+/*
+3*/
+.contain-texte-vous-aimeriez{
+
+color:#3D3D4E;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.875rem;
+    margin-left: 5rem; 
+}
+
+.container-two-picture{
+     width: 80%;
+     height: 700px;
+    
+    display: flex;
+    margin-left: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.Homme_foto_paragr_bouton{
+    
+
+    
+    width: 31.5rem;
+    height: 37rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;       
+
+}
+
+.foto{
+    width: 31.5rem;
+    height: 18rem;
+    flex-shrink: 0;
+color: #FFFFFF;
+border-radius: 1.25rem;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+    
+}
+
+.paragraphe-contain-two-picuture{
+    display: flex;
+    width: 28.625rem;
+    height: 7.375rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.4375rem; 
+margin-left: 1rem;
+
+
+}
+.boutonl{
+    width: 11.14488rem;
+    height: 2.87994rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+   background: #F39200;
+   color: #FFFFFF;
+   margin-left: 1rem;
+   margin-left: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       
+    }
+
+
+
+    .lire1{
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem; 
+    color: #FFFFFF;
+            }
+        /* */
+
+        .Homme_foto_paragr_bouton1{
+            
+            width: 31.5rem;
+            height: 37rem;
+            flex-shrink: 0;
+            border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;
+        
+        }
+        
+        .foto1{
+            width: 31.5rem;
+            height: 21rem;
+            flex-shrink: 0;
+            border-radius: 1.25rem;
+            
+            
+        }
+        
+        .paragr1{
+            display: flex;
+            width: 27.75rem;
+            height: 7.375rem;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: #3D3D4E;
+            font-family: Poppins;
+            font-size: 1.5625rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.4375rem; 
+            margin-left: 1rem;
+
+        
+        }
+        .boutonl1{
+            width: 11.14488rem;
+            height: 2.87994rem;
+            flex-shrink: 0;
+            border-radius: 0.8125rem;
+          background: #F39200;
+          margin-left: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+         }
+        .lire11{
+            text-align: center;
+            flex-shrink: 0;
+            color: #FFF;
+           font-family: Poppins;
+            font-size: 1.25rem;
+            font-style: normal;
+           font-weight: 600;
+            line-height: 1.875rem; 
+              color: #FFFFFF;
+                }
+
+         ol{
+          list-style-type: none;
+         }
