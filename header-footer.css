@@ -71,7 +71,7 @@ background: url(img/icone\ réeaux.svg);
 
 /*Section footer*/
 footer {
-    margin-top: 5rem;
+    
     display: flex;
     flex-direction: column;
 }
