@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.S-apropos {
+margin-top: -3rem;
+}
+.main-image{
+    width: 100%;
+height: 43.75rem;
+flex-shrink: 0; 
+background-image: linear-gradient(rgba(12, 25, 46, 0.5),rgba(12, 25, 46, 0.5)), url(img/Rectangle\ 8.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.main-image h1{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.6rem; /* 120% */ 
+padding: 14rem 38.25rem 17.325rem 39.125rem;
+}
+
+.card-apropos{
+    width: 21.563rem;
+height: 16.313;
+flex-shrink: 0;
+background: rgba(12, 25, 46, 0.99);
+box-shadow: 0rem 0.25rem 1.25rem 0rem rgba(0, 0, 0, 0.50);
+padding-left: 2.063rem;
+padding-top: 2.875rem;
+}
+.trais{
+    width: 3.375rem;
+height: 0.313rem;
+background: #EDEEF1;
+}
+.orange{
+    display: flex;
+width: 7.5rem;
+height: 2.063rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #F39200;
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.45rem; /* 140% */
+}
+.card-apropos p{
+    display: flex;
+width: 17.992rem;
+height: 6.315rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #EDEEF1;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 1.6rem; /* 160% */
+padding-bottom: 2.639rem;
+
+}
+.apropos{
+    display: flex;
+width: 62.063rem;
+height: 17rem;
+flex-shrink: 0; 
+gap: 2.125rem;
+position: relative;
+top: -6.25rem;
+margin: auto;
+
+}
+
+/* section Apropos De Nous */
+.section-aproposDeNous{
+    width: 90rem;
+height: 71.563rem;
+flex-shrink: 0;
+}
+.aproposDeNous{
+    display: flex;
+    gap: 2.75rem;
+    height: 430px;
+    align-items: center;
+    padding-top: 200px;
+}
+.img {
+    width: 739px;
+height: 26.875rem;
+flex-shrink: 0;
+border-radius: 0.938rem;
+background-image: linear-gradient(rgba(12, 25, 46, 0.5),rgba(12, 25, 46, 0.5)), url(img/Rectangle\ 23925.png);
+background-size: 739px;
+background-repeat: no-repeat;
+
+}
+
+.text-aproposDeNous h1{
+    width: 31.25rem;
+    color: #0E1B30;
+font-family: Poppins;
+font-size: 2.188rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125rem; /* 142.857% */
+}
+.traitOrange{
+    width: 4.813rem;
+height: 0.313rem;
+background: #F39200;
+}
+.text-aproposDeNous p{
+    width: 34.375rem;
+    color: #393A56;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5rem; /* 200% */
+}
+
+
+
+.cadreResultat{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 10rem;
+    padding-left: 11.813rem;
+}
+.resultat1{
+    width: 13.188rem;
+}
+.resultat1 h1{
+    color: #242A56;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 120% */
+}
+.resultat1 p{
+    color: #393A56;
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem; /* 160% */
+
+}
+.resultat{
+    display: flex;
+    gap: 1.25rem;
+
+}
+.chiffre{
+    color: #6878D6;
+font-family: Open Sans;
+font-size: 2.813rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.813rem; /* 100% */
+}
+.pragraphe{
+    color: #242A56;
+font-family: Poppins;
+font-size: 0.938rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.172rem; /* 125% */
+width: 6.25rem;
+height: 2.406rem;
+}
