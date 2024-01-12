@@ -2,81 +2,153 @@
 body {
     font-family: Poppins;
 background: #FFF;
+margin: 0;
+    padding: 0;
 
 }
 
 /* Section header*/
 
-header{
 
-    width: 100%;
-    
-height: 6.5625rem;
-flex-shrink: 0;
-background: #0C192E;
+header {
+    width: 100%; /* Ajustez la largeur en fonction de vos besoins */
+    height: 5.6875rem;
+    background: #0C192E;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     align-items: center;
-    
-    }
-    .container-logo {
-        background: url(img/bleu_logo-removebg-preview\ 2.svg),  50% / cover no-repeat;
-        width: 8.6875rem;
-height: 6.125rem;
-flex-shrink: 0;
-    }
-    
-    
-    
-    nav {
-        text-align: center; 
-    }
-    
-    
-    nav a {
-        text-decoration: none; 
-        margin: 0 1.3rem; 
-        text-align: left;
-        color: #FFF;
+
+    color: #FFF;
 font-family: Poppins;
 font-size: 0.9375rem;
 font-style: normal;
 font-weight: 600;
 line-height: 5rem; /* 533.333% */
-        
-    }
+}
 
-    nav a.active {
-        color: #F39200;
-        font-family: Poppins;
-        font-size: 0.9375rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 5rem; /* 533.333% */
-    }
+.logo img {
+    
+    flex-shrink: 0;
+   
+    margin-top: 2rem;
+}
+
+.trois-tirets {
+    width: 2.45613rem;
+    height: 1.43769rem;
+    flex-shrink: 0;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none; /* Pour cacher les traits sur les écrans plus grands */
+}
+
+.trois-tirets span {
+    display: block;
+    width: 30px; /* Ajustez la largeur des traits en fonction de vos besoins */
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+header input {
+    visibility: hidden;
+}
+.nav-list a:hover{
+    color: #F39200;
+    
+}
+
+/* Ajoutez les styles pour le menu lorsqu'il est ouvert */
+#menu-toggle:checked + .trois-tirets span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#menu-toggle:checked + .trois-tirets span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked + .trois-tirets span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Styles pour la liste de navigation */
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     
     
-    .container-social-media {
-        width: 11.5rem;
-height: 1.6875rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    text-align: center;
+}
+.social-media img {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.container-logo {
+        
+    width: 8.6875rem;
+height: 6.125rem;
 flex-shrink: 0;
-background: url(img/icone\ réeaux.svg);
-    }
+}
+
+
+
+nav {
+    text-align: center; 
+}
+
+
+nav a {
+    text-decoration: none; 
+    margin: 0 1.3rem; 
+    text-align: left;
+    color: #FFF;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 600;
+line-height: 5rem; /* 533.333% */
     
+}
+
+nav a.active {
+    color: #F39200;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5rem; /* 533.333% */
+}
+
+
+.container-social-media img{
     
-    .icone-social-media {
-       
-        margin: 0 0.6rem; 
-    }
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+
+
 
 /*Section footer*/
 footer {
-    
-    display: flex;
-    flex-direction: column;
+
+display: flex;
+flex-direction: column;
+
+text-align: center;
 }
 .footer-light {
-    width: 100%;
+width: 100%;
 height: 11.8125rem;
 flex-shrink: 0;
 background: #FFF;
@@ -85,14 +157,14 @@ display: flex;
 flex-direction: column;
 }
 .newsletter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+
 }
 .newsletter p {
-    width: 15.1875rem;
+width: 15.1875rem;
 height: 1.875rem;
 flex-shrink: 0;
 color: #0C192E;
@@ -103,14 +175,14 @@ font-weight: 500;
 line-height: normal;
 }
 .newsletter .inputs {
-    width: 31.1875rem;
+width: 31.1875rem;
 height: 3.125rem;
 flex-shrink: 0;
 border-radius: 0.3125rem;
 background: #F2F3FA;
 }
 .newsletter .inputs label {
-    color: #575757;
+color: #575757;
 font-family: Poppins;
 font-size: 1rem;
 font-style: normal;
@@ -120,7 +192,7 @@ margin-left: 2rem;
 
 }
 .newsletter .inputs .submit-input {
-    width: 8.9375rem;
+width: 8.9375rem;
 height: 2.5rem;
 flex-shrink: 0;
 border-radius: 0.3125rem;
@@ -137,7 +209,7 @@ border: #F39200 solid 0.1rem;
 margin-top: 0.3rem;
 }
 .footer-dark {
-    width: 100%;
+width: 100%;
 height: 6.4375rem;
 flex-shrink: 0;
 background: #0C192E;
@@ -145,20 +217,20 @@ display: flex;
 justify-content: space-evenly;
 }
 .footer-ligne {
-    width: 81.25rem;
+width: 81.25rem;
 height: 0.0625rem;
 flex-shrink: 0;
 background: rgba(0, 33, 74, 0.20);
 margin-left: 15rem;
 }   
 .politique-mention-cookies-faq {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;
+display: flex;
+justify-content: space-evenly;
+margin-top: 2rem;
 } 
 .politique-mention-cookies-faq p {
-    height: 1.875rem;
-    color: #00214A;
+height: 1.875rem;
+color: #00214A;
 font-family: Poppins;
 font-size: 1.25rem;
 font-style: normal;
@@ -167,13 +239,13 @@ line-height: normal;
 text-transform: uppercase;
 }
 .footer-dark .logo-footer{
-    width: 8.6875rem;
+width: 8.6875rem;
 height: 6.125rem;
 flex-shrink: 0;
 background: url(img/bleu_logo-removebg-preview\ 2.svg), 50% / cover no-repeat;
 }
 .footer-dark p {
-    width: 34.375rem;
+width: 34.375rem;
 height: 1.5rem;
 flex-shrink: 0;
 color: #FFF;
@@ -186,10 +258,121 @@ text-transform: uppercase;
 margin-top: 2.5rem;
 }
 .social-media-footer {
-    width: 13.875rem;
+width: 13.875rem;
 height: 2rem;
 flex-shrink: 0;
 background: url(img/Reseau\ sociaux.svg), 50% / cover no-repeat;
 margin-right: 5rem;
 margin-top: 2rem;
 }
+
+
+
+/* Ajoutez ces styles spécifiques pour les tablettes dans votre fichier cilabook.css */
+
+@media only screen and (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+        
+    }
+    header .nav-list {
+        background-color: rgba(12, 25, 46, 0.5); 
+    }
+    footer {
+        gap: 18rem;
+    }
+    .footer-light {
+        box-shadow: none;
+        width: 100%;
+        }
+   .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+   }
+   .politique-mention-cookies-faq {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .politique-mention-cookies-faq p {
+    font-weight: bold;
+   }
+    .footer-ligne {
+        display: none;
+    }
+    .trois-tirets {
+        display: block;
+        margin-left: 35rem;
+    }
+
+    .nav-list, .container-social-media img {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0C192E;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #menu-toggle:checked + .trois-tirets + .nav-list {
+        display: flex;
+        
+    }
+
+    .nav-list a {
+        margin: 15px;
+    }
+    .footer-dark {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+height: 31.3125rem;
+flex-shrink: 0;
+    }
+    .footer-dark .logo-footer {
+        width: 19.0625rem;
+height: 13.4375rem;
+flex-shrink: 0;
+background: url(img/logo-footerr.png), 50% / cover no-repeat;
+}
+    }
+
+
+/* Ajoutez ces styles spécifiques pour les téléphones dans votre fichier cilabook.css */
+@media only screen and (max-width: 768px) {
+   
+    .trois-tirets {
+        display: block;
+        margin-left: 10rem;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0C192E;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #menu-toggle:checked + .trois-tirets + .nav-list {
+        display: flex;
+    }
+
+    .nav-list a {
+        margin: 15px;
+    }
+}
+
+
+   
