@@ -283,33 +283,71 @@ line-height: 50px; /* 200% */
 
 
 @media only screen and (max-width:430px){
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
     .main-image{
         width: 100%;
         background-size: 430px;
          height: 309px; 
-         padding-bottom: 0%;
+         background-image: linear-gradient(rgba(12, 25, 46, 0.5),rgba(12, 25, 46, 0.5)), url(img/Rectangle\ 23948.png);
+
          
         
     }
     .main-image h1{
         font-family: Poppins;
-font-size: 32px; 
+font-size: 30px; 
 width: 200px; 
-padding: 142.46px 398.22px;
-color: rgb(12, 25, 46, 0.45);
+padding: 60px 100px;
+color: rgba(255, 255, 255, 0.5); 
         
     }
     .aproposDeNous{
         width: 430px;
-height: 2056px;
 flex-shrink: 0;
     }
     .apropos{
         flex-direction: column;
-        align-items: center;
-        position: relative;
-        top: 63px;
-        left: 10%;
+    position: relative;
+    top: 10%;
+    left: -60%;
     }
-    
+.card-apropos{
+    margin-bottom: 80px;
+}
+    .section-aproposDeNous{
+        flex-direction: column;
+        height: 2300px; 
+    }
+    .aproposDeNous{
+        padding-left: 72px;
+        flex-direction: column; 
+        flex-direction: column-reverse;
+        padding-top: 300%;    
+        align-items: baseline;
+    }
+.aproposDeNous p{
+    width: 295px; 
+    font-size: 14px; 
+}
+    .cadreResultat{
+        flex-direction: column;
+    align-items: baseline;
+ width: 300px;
+    }
+    .resultat1{
+        margin-bottom: 50px;
+    }
+    .resultat{
+        margin-bottom: 50px;
+    }
+    .img{
+        width: 280px;
+height: 240px;
+flex-shrink: 0;
+border-radius: 15px; 
+background-size:280px ;
+    }
 }
