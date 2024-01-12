@@ -396,3 +396,72 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+   
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+       
+   
+    }
+
+/* Styles de base pour les grands écrans */
+.section-bienvenu-cila-bok {
+    width: 100%;
+    height: 43.75rem;
+    background-color: #F2F3FA;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.line-yellow {
+    width: 7rem;
+    height: 0.3rem;
+    background-color: #F39200;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.box-presentation {
+    width: 45%;
+    height: 37.75rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+}
+
+.box-image-presentation {
+    width: 45%;
+    height: 37.75rem;
+    background-image: url("/img/copain4png\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+
+@media (max-width: 1024px) {
+    .section-bienvenu-cila-bok {
+        flex-direction: column; 
+        height: auto; /
+    }
+
+    .box-presentation,
+    .box-image-presentation {
+        width: 100%; 
+    }
+
+    .line-yellow {
+        margin-left: 0; 
+    }
+}
+
+@media (max-width: 768px) {
+    .box-presentation {
+        padding-left: 2rem; 
+        padding-right: 2rem; 
+    }
+  
+}
