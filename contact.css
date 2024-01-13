@@ -225,3 +225,50 @@ margin-top: 30rem;
         width: 42.6875rem;
     }
 }
+@media only screen and (max-width:390px){
+    .contact .bordure-lien {
+        width: 11.625rem;
+height: 2.4375rem;
+border-radius: 0.625rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 6rem;
+    }
+    .contact .bordure-lien a {
+        width: 8.5rem;
+height: 1rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.flex-contact {
+    width: 19.875rem;
+    height: 80rem;
+    
+    }
+    .flex-contact, .container, .form, .formulaire-nom input, .formulaire-mail input, .formulaire-telephone input, .formulaire-message textarea, input[type="submit"] {
+        width: 19.875rem;
+    }
+    .container {
+       
+height: 10.9375rem;
+flex-shrink: 0;
+background: #0C192E;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    }
+    .contact-et-localisation {
+        margin-top: 15rem;
+        
+    }
+    .form {
+        margin-top: -8rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
