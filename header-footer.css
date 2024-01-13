@@ -276,7 +276,8 @@ margin-top: 2rem;
         
     }
     header .nav-list {
-        background-color: rgba(12, 25, 46, 0.5); 
+        
+        background-color: rgba(12, 25, 46, 0.3); 
     }
     footer {
         gap: 18rem;
@@ -311,11 +312,12 @@ margin-top: 2rem;
         flex-direction: column;
         position: absolute;
         top: 60px;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 25%;
         background-color: #0C192E;
         text-align: center;
         padding-top: 1rem;
+        font-weight: bolder;
     }
 
     #menu-toggle:checked + .trois-tirets + .nav-list {
