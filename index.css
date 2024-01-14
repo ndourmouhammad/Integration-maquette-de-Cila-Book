@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 .section-bienvenu-cila-bok{
     width: 100%;
     height: 43.75rem;
@@ -399,13 +400,13 @@
    
 
 
-
+/* partie tablette */
 @media (min-width: 768px) and (max-width: 1024px) {
-       
+   
    
     }
 
-/* Styles de base pour les grands écrans */
+
 .section-bienvenu-cila-bok {
     width: 100%;
     height: 43.75rem;
@@ -445,7 +446,7 @@
 @media (max-width: 1024px) {
     .section-bienvenu-cila-bok {
         flex-direction: column; 
-        height: auto; /
+        height: auto; 
     }
 
     .box-presentation,
@@ -457,11 +458,26 @@
         margin-left: 0; 
     }
 }
-
+/* partie desktop */
 @media (max-width: 768px) {
-    .box-presentation {
+
+   .box-presentation {
         padding-left: 2rem; 
         padding-right: 2rem; 
     }
-  
+  .container-box-image{
+    display: none;
+  }
+  .section-article-blog{
+    display: none;
+  }
+  .container-about-me{
+    display: none;
+  }
+  .box-img-vector{
+    display: none;
+  }
+  .container-cilabok-background-white{
+    display: none;
+  }
 }
