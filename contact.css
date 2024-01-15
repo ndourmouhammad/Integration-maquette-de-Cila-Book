@@ -60,6 +60,8 @@ margin-top: 5rem;
 .telephone, .mail, .localisation {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  align-items: center;
     
 }
 .telephone img, .mail img, .localisation img {
@@ -68,7 +70,7 @@ height: 5.53731rem;
 flex-shrink: 0;
 position: relative;
 top: 2.5rem;
-left: 7.5rem;
+left: -0.6rem;
 }
 .container {
     width: 19.875rem;
@@ -164,5 +166,109 @@ cursor: pointer;
 }
 
 @media only screen and (max-width:1024px) {
+    .contact {
+        background: none;
+        width: 100%;
+    }
+    .contact .bordure-lien {
+        width: 36.6875rem;
+height: 6.25rem;
+flex-shrink: 0;
+margin-left: 14rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    }
+    .contact .bordure-lien a {
+        width: 18.5625rem;
+height: 2.4375rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+
+    }
+    .flex-contact {
+        flex-direction: column;
+        width: 58.9375rem;
+height: 120rem;
+flex-shrink: 0;
+align-items: center;
+justify-content: center;
+
+
+    }
+    .contact-et-localisation {
+       margin-top: 25rem;
+    }
+
     
+    .container {
+        width: 42.6875rem;
+height: 23.375rem;
+justify-content: center;
+  align-items: center;
+    }
+    .form {
+        width: 42.6875rem;
+height: 65.75rem;
+align-items: center;
+justify-content: center;
+margin-top: 30rem;
+    }
+    .formulaire-nom input, .formulaire-mail input, .formulaire-telephone input, .formulaire-message textarea, input[type="submit"] {
+        width: 42.6875rem;
+    }
+}
+@media only screen and (max-width:390px){
+    .contact .bordure-lien {
+        width: 11.625rem;
+height: 2.4375rem;
+border-radius: 0.625rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 6rem;
+    }
+    .contact .bordure-lien a {
+        width: 8.5rem;
+height: 1rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.flex-contact {
+    width: 19.875rem;
+    height: 80rem;
+    
+    }
+    .flex-contact, .container, .form, .formulaire-nom input, .formulaire-mail input, .formulaire-telephone input, .formulaire-message textarea, input[type="submit"] {
+        width: 19.875rem;
+    }
+    .container {
+       
+height: 10.9375rem;
+flex-shrink: 0;
+background: #0C192E;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    }
+    .contact-et-localisation {
+        margin-top: 15rem;
+        
+    }
+    .form {
+        margin-top: -8rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
 }

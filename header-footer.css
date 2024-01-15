@@ -276,7 +276,8 @@ margin-top: 2rem;
         
     }
     header .nav-list {
-        background-color: rgba(12, 25, 46, 0.5); 
+        
+        background-color: rgba(12, 25, 46, 0.3); 
     }
     footer {
         gap: 18rem;
@@ -311,11 +312,12 @@ margin-top: 2rem;
         flex-direction: column;
         position: absolute;
         top: 60px;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 25%;
         background-color: #0C192E;
         text-align: center;
         padding-top: 1rem;
+        font-weight: bolder;
     }
 
     #menu-toggle:checked + .trois-tirets + .nav-list {
@@ -346,7 +348,7 @@ background: url(img/logo-footerr.png), 50% / cover no-repeat;
 
 
 /* Ajoutez ces styles spécifiques pour les téléphones dans votre fichier cilabook.css */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 430px) {
    
     .trois-tirets {
         display: block;
@@ -371,6 +373,36 @@ background: url(img/logo-footerr.png), 50% / cover no-repeat;
 
     .nav-list a {
         margin: 15px;
+    }
+    .footer-dark  p {
+        font-size: 0.8rem;
+    }
+    .newsletter .inputs {
+        width: 22.375rem;
+height: 2.8125rem;
+flex-shrink: 0;
+    }
+    .newsletter .inputs label {
+        width: 12.625rem;
+height: 1.3125rem;
+flex-shrink: 0;
+font-size: 0.8rem;
+width: 12.625rem;
+height: 1.3125rem;
+flex-shrink: 0;
+margin-right: -3rem;
+    }
+    .newsletter .inputs .submit-input {
+        width: 5.6875rem;
+        height: 1.6875rem;
+        flex-shrink: 0;
+        color: #FFF;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
     }
 }
 
