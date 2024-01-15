@@ -281,10 +281,12 @@ margin-top: 2rem;
     }
     footer {
         gap: 18rem;
+        
     }
     .footer-light {
         box-shadow: none;
         width: 100%;
+        
         }
    .newsletter {
     display: flex;
