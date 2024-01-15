@@ -1,5 +1,6 @@
 
-.debutdiv{
+
+.container-decouverte-de-la-cilabok{
     margin-left: 5rem;
     width: 52.9375rem;
 height: 45.3125rem;
@@ -37,4 +38,589 @@ flex-shrink: 0;
 margin-top: 2rem;
         
 } 
+.decouvert_ci_la_book{
+    margin-left: 5rem;
+    width: 79.6875rem;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.6rem; /* 128% */
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6rem;
 
+}
+/*2*/
+.container-all-image-reseau{
+    margin-left: 5rem;
+    width: 14.37881rem;
+    height: 3.0235rem;
+    flex-shrink: 0;
+    color: #F39200;
+}
+/*
+3*/
+.contain-texte-vous-aimeriez{
+
+color:#3D3D4E;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.875rem;
+    margin-left: 5rem; 
+}
+
+.container-two-picture{
+     width: 80%;
+     height: 700px;
+    
+    display: flex;
+    margin-left: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.Homme_foto_paragr_bouton{
+    
+
+    
+    width: 31.5rem;
+    height: 37rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;       
+
+}
+
+.foto{
+    width: 31.5rem;
+    height: 18rem;
+    flex-shrink: 0;
+color: #FFFFFF;
+border-radius: 1.25rem;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+    
+}
+
+.paragraphe-contain-two-picuture{
+    display: flex;
+    width: 28.625rem;
+    height: 7.375rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3D3D4E;
+font-family: Poppins;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.4375rem; 
+margin-left: 1rem;
+
+
+}
+.boutonl{
+    width: 11.14488rem;
+    height: 2.87994rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+   background: #F39200;
+   color: #FFFFFF;
+   margin-left: 1rem;
+   margin-left: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       
+    }
+
+
+
+    .lire1{
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem; 
+    color: #FFFFFF;
+            }
+        /* */
+
+        .Homme_foto_paragr_bouton1{
+            
+            width: 31.5rem;
+            height: 37rem;
+            flex-shrink: 0;
+            border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;
+        
+        }
+        
+        .foto1{
+            width: 31.5rem;
+            height: 21rem;
+            flex-shrink: 0;
+            border-radius: 1.25rem;
+            
+            
+        }
+        
+        .paragr1{
+            display: flex;
+            width: 27.75rem;
+            height: 7.375rem;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: #3D3D4E;
+            font-family: Poppins;
+            font-size: 1.5625rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.4375rem; 
+            margin-left: 1rem;
+
+        
+        }
+        .boutonl1{
+            width: 11.14488rem;
+            height: 2.87994rem;
+            flex-shrink: 0;
+            border-radius: 0.8125rem;
+          background: #F39200;
+          margin-left: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+         }
+        .lire11{
+            text-align: center;
+            flex-shrink: 0;
+            color: #FFF;
+           font-family: Poppins;
+            font-size: 1.25rem;
+            font-style: normal;
+           font-weight: 600;
+            line-height: 1.875rem; 
+              color: #FFFFFF;
+                }
+
+         ol{
+          list-style-type: none;
+         }
+         /* Version tablette*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        overflow-x: hidden;
+    }
+.container-decouverte-de-la-cilabok {
+        margin-left: 2rem;
+        width: 100%;
+        height: 145.3125rem;
+    }
+
+    .titre1b {
+        width: 100%;
+        color: #3D3D4E;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .lien1b {
+        display: flex;
+        width: 171px;
+        height: 23.2px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #6369D1;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 23.2px;
+    }
+
+    .imageb1 {
+        width: 60%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .decouvert_ci_la_book {
+
+        display: flex;
+        width: 90%;
+        height: 1646px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #3D3D4E;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25.6px;
+        color: #3D3D4E;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.6px;
+        margin-top: -198%;
+        margin-left: 2rem;
+    }
+
+    .container-all-image-reseau {
+        text-align: center;
+        margin-bottom: -0.1px;
+        height: 48.376px;
+        flex-shrink: 0;
+        width: 70%;
+        margin-left: 1rem;
+        margin-top: -20%;
+
+
+    }
+
+    .contain-texte-vous-aimeriez {
+        margin-left: 2rem;
+        width: 80%;
+        height: 60px;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #3D3D4E;
+        font-family: Poppins;
+        font-size: 19px;
+        font-style: normal;
+        line-height: 30px;
+        margin-bottom: 320%;
+
+    }
+
+    .container-two-picture {
+        padding-top: -3%;
+        margin-left: -5%;
+        width: 79%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 37px;
+        font-family: Poppins;
+        font-size: 2.5625rem;
+        font-style: normal;
+        margin-top: -320%;
+        height: 100%;
+    }
+
+    .Homme_foto_paragr_bouton {
+        width: 80%;
+        height: auto;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+    .Homme_foto_paragr_bouton1 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+    .foto {
+        width: 99%;
+        height: auto;
+        border-radius: 1.25rem;
+        margin-bottom: 12px;
+        margin-left: 1px;
+    }
+.foto1 {
+    width: 100%;
+    height: auto;
+    border-radius: 1.25rem;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+
+.paragraphe-contain-two-picuture {
+    text-align: justify;
+}
+
+.paragr1 {
+    
+width: 444px;
+height: 118px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #3D3D4E;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 39px; 
+
+}
+
+.boutonl {
+    margin-bottom: 7%;
+    margin-top: 5%;
+    width: 13.14488rem;
+    height: 3.87994rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+    background: #F39200;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutonl1 {
+
+    margin-bottom: 7%;
+    margin-top: 5%;
+    width: 13.14488rem;
+    height: 3.87994rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+    background: #F39200;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lire11 {
+    color: #fff;
+}
+
+.lire1 {
+    color: #fff;
+}
+
+
+
+
+}
+
+         /*Version telephone*/
+         @media only screen and (max-width: 430px){
+            body{
+                overflow-x: hidden;
+            }
+
+            .container-decouverte-de-la-cilabok {
+                margin: 1rem;
+                width: 80%;
+            }
+            
+            .titre1b {
+                width: 430px;
+                height: 91px;
+                flex-shrink: 0;
+                color: #3D3D4E;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; 
+ }
+            
+            .lien1b {
+                margin-top: -13%;
+                display: flex;
+                width: 137px;
+                height: 22px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #6369D1;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.2px; 
+            }
+        .imageb1 {
+            margin-top: 2%;
+                width: 280px;
+                height: 184px;
+                flex-shrink: 0; }
+        .decouvert_ci_la_book {
+            margin-top: -115%;
+            margin-left: 4%;
+            width: 315px;
+            color: #3D3D4E;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25.6px;
+            color: #3D3D4E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; 
+            }
+    .container-all-image-reseau {
+                width: 169.127px;
+    height: 35.565px;
+    flex-shrink: 0;
+    text-align: center;
+            }
+    .contain-texte-vous-aimeriez {
+    margin-left: 4%;     
+    width: 319px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3D3D4E;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+         }
+    .container-two-picture {
+    display: flex;
+                width: 30.625rem;
+                height: 200%;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #3D3D4E;
+            font-family: Poppins;
+            font-size: 1.5625rem;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: -5%;
+            margin-right: 1px;
+            margin-left: -1px;
+            gap: 0.2rem;
+            margin-bottom: 5rem;
+         }
+    .Homme_foto_paragr_bouton{
+                margin-right: 24%;
+                width: 335.725px;
+    height: 400.01px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);}
+
+    .Homme_foto_paragr_bouton1 {
+    margin-right: 24%;
+    width: 335.725px;
+    height: 400.01px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+    }
+ .foto {
+    width: 330.725px;
+    height: 237.816px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    margin-left: 1px; 
+    
+    }
+.foto1 {
+    width: 330.725px;
+    height: 237.816px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    margin-left: 1px; 
+    
+}
+    .paragraphe-contain-two-picuture {
+                display: flex;
+                width: 320px;
+                height: 84px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #3D3D4E;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px; }
+           .paragr1 {
+                color: #3D3D4E;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px;
+                color: #3D3D4E;
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px; }
+            .boutonl {
+                width: 61.278px;
+                height: 19.874px;
+                flex-shrink: 0;
+                border-radius: 13px;
+                background: #F39200;}
+            .boutonl1 {
+                width: 61.278px;
+                height: 20.874px;
+                flex-shrink: 0;
+                border-radius: 13px;
+                background: #F39200;
+                margin-top: -5%;
+            
+            }
+            .lire1 {
+                font-size: 1rem; 
+                display: flex;
+                width: 44px;
+                height: 20px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px;}
+            .lire11 {
+                font-size: 1rem;
+                display: flex;
+                width: 44px;
+                height: 20px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px;}
+
+                    }
