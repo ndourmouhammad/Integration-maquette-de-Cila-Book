@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.main-image{
+    margin-top: -2.1rem; 
+    width: 100%;
+height: 700px;
+flex-shrink: 0;
+background-image: linear-gradient(rgba(12, 25, 46, 0.5),rgba(12, 25, 46, 0.5)), url(img/Rectangle\ 23945.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main-image h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 200% */
+text-transform: uppercase;
+padding-top: 16%;
+padding-left: 32%;
+}
+
+
+
+.porteur-projet{
+    width: 100%;
+height: 1500px;
+flex-shrink: 0;
+background: url(img/white-paper-texture-background\ copie\ 4\ 1.png), lightgray 50% / cover no-repeat;
+}
+.icone{
+    width: 118px;
+height: 90px;
+flex-shrink: 0;
+}
+
+.titre h1{
+    color: #0C192E;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 200% */
+margin: 0%;
+}
+.trait2{
+    width: 131px;
+height: 5px;
+background: #F39200;
+}
+
+.projet{
+    display: flex;
+    gap: 29px;
+    margin: auto;
+    padding: 100px 518px;
+}
+
+
+.porteur{
+    display: flex;
+    align-items: center;
+    line-height: 35px; /* 140% */ 
+    justify-content: space-around;
+}
+.cadre-porteur{
+    display: block;
+
+}
+
+.flex-pragraphe{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.point{
+    width: 29px;
+height: 29px;
+flex-shrink: 0;
+color: #F39200;
+}
+.flex-pragraphe p{
+    display: flex;
+width: 698px;
+
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 320% */
+}
+
+.images{
+    width: 526px;
+height: 409px;
+flex-shrink: 0;
+border-radius: 15px;
+background: url(img/Rectangle\ 23946.png), lightgray 0px -74.675px / 100% 193.24% no-repeat;
+}
+.img{
+    width: 526px;
+    height: 409px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: url(img/Rectangle\ 23947.png), lightgray 0px -74.675px / 100% 193.24% no-repeat;
+ 
+}
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+@media only screen and (max-width:1024px){
+    
+    .main-image{
+        overflow-x: hidden;
+        width: 100%;
+        height: 400px;
+        flex-shrink: 0;
+        margin-top: 0rem; 
+    }
+    .main-image h1{
+        font-family: Poppins;
+font-size: 32px; 
+width: 100%; 
+padding: 130px 398.22px;
+        
+    }
+    .porteur-projet{
+        width: 100%;
+        height: 2800px; }
+        .projet{
+            padding: 25px;
+        }
+        .cadre-porteur{
+            flex-direction: column;
+
+        }
+        .porteur{
+            flex-direction: column;
+           align-items: baseline;
+           margin: auto;
+           padding-left: 54px;
+            
+        }
+        .flex-pragraphe{
+            margin-bottom: 100px;
+        }
+        .projet{
+            padding-top: 50px;
+            margin-bottom: 100px;
+        }
+        
+}
+
+
+
+
+
+@media only screen and (max-width:430px){
+    body{
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+    .main-image{
+        height: 180px;
+        width: 100%;
+         background-image: linear-gradient(rgba(12, 25, 46, 0.5),rgba(12, 25, 46, 0.5)), url(img/Rectangle\ 23945.png);
+    }
+    .main-image h1{
+        
+        width: 280px;
+        height: 21px; 
+        font-size: 20px;  
+        padding: 55px 79px;
+        
+    }
+    .projet{
+        padding: 15px;
+    }
+    .titre h1{
+        font-size: 20px; 
+    }
+    .trait2{
+        width: 77px;
+        height: 5px; 
+    }
+    .icone{
+        width: 69px;
+        height: 52.627px; 
+        margin-right: 30px;
+    }
+    .porteur{
+        padding-left: 25px;
+    }
+    .flex-pragraphe p{
+        font-size: 15px; 
+        width: 319px;
+height: 33px; 
+
+    }
+    .point{
+        width: 29px;
+        height: 29px; 
+    }
+    .projet{
+        padding-top: 50px;
+        margin-bottom: 67px;
+    }
+    .images{
+        width: 312px;
+height: 243px; 
+background-size:312px ;
+    }
+    .img{
+        width: 312px;
+        height: 243px; 
+        background-size:312px ;
+    }
+    .porteur-projet{
+        width: 100%;
+        height: 2200px; 
+    }
+}
