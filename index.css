@@ -395,17 +395,19 @@
     }
     .section-bienvenu-cila-bok{
         width: 100%;
-        height: 100vh;
+        height: 150vh;
         background-color: #F2F3FA;
         flex-direction: column;
         padding-top: 4rem;
     }
    
-    .box-presentation{
-        width: 45%;
+    .box-presentation{ 
+        padding-top: 4rem; 
+        width: 100%;
         height: 37.75rem;
         padding-top: 4rem;
-        padding-left: 6rem;
+       
+       
     }
     .box-image-presentation{
         width: 100%;
@@ -414,6 +416,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
        
     }
     .box-presentation .box-contain-title{
@@ -437,9 +440,7 @@
         letter-spacing: 0em;
         text-align: left;
         border-radius: 1rem;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+        margin-top: 12rem;
     }
     .box-contain-title .title{
         font-size: 3.4375rem;
@@ -454,7 +455,9 @@
         line-height: 4.688rem;
         letter-spacing: 0em;
         text-align: left; 
+        display: flex;
         color: #0C192E;
+        position: absolute;
     }
     .title .down{
         font-size: 3.4375rem;
@@ -468,9 +471,12 @@
     .box-contain-texte{
         font-size: 1.125rem;
         font-weight: 400;
-        line-height: 2.188rem;
+        display: flex;
         letter-spacing: 0em;
-        text-align: left;
+        width: 50%;
+        height: 100px;
+        position: absolute;
+        margin-left: -6rem;
     }
     .container-about-me{
         width: 100%;
@@ -935,6 +941,7 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        
        
     }
     .footer-ligne{
@@ -944,14 +951,44 @@
         flex-direction: column; 
         height: auto; 
     }
-
+    .title .under{
+        font-size: 3.4375rem;
+        font-weight: 600;
+        line-height: 4.688rem;
+        letter-spacing: 0em;
+        text-align: left; 
+        color: #0C192E;
+    }
+    .title .down{
+        font-size: 3.4375rem;
+        font-weight: 600;
+        line-height: 4.688rem;
+        letter-spacing: 0em;
+        text-align: left; 
+        color: #F39200;
+    }
+    
+    .box-contain-texte{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 2.188rem;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 3rem;
+    }
     .box-presentation,
     .box-image-presentation {
         width: 100%; 
+        padding-right: 5rem;
     }
-
+     
     .line-yellow {
-        margin-left: 0; 
+        width: 7rem;
+        height: 0.3rem;
+        background-color: #F39200;
+        position: absolute;
+        margin-top: -3rem;
+        margin-left: 0.5rem;
     }
     .forme-blue-oval button{
         display: none;
@@ -975,7 +1012,7 @@
         padding-right: 2rem; 
     }
     .button-demo{
-        margin-top: 2rem;
+        margin-top: 10rem;
     }
     .box1 h2{
         width: 19.5rem; 
@@ -992,7 +1029,7 @@
         width: 4.3125rem;
         height: 0.3125rem;
         background-color: #F39200;
-        margin-left: -0rem;
+        
     }
     .box1 p{
         font-size: 1.125rem; 
@@ -1002,6 +1039,7 @@
         text-align: left;
         color: #0C192E;   
         width: 80%;
+       
     }
     .container-image-and-text .box2{
         width: 90%; 
@@ -1022,7 +1060,7 @@
     
     
     .container-about-me{
-        width: 100%;
+        width: 90%;
         height: 800px;
         flex-direction: column;
         margin-top: 2rem;
@@ -1102,9 +1140,7 @@
         border-radius: 1.25rem; 
         flex-direction: column;
         background-color: #FFFFFF;
-        box-shadow: 0px 0.25rem 0.625rem 0px #00000040; 
-    
-        
+        box-shadow: 0px 0.25rem 0.625rem 0px #00000040;    
     }
     .box-img-mobile .image1-mobile{
         width: 18.5rem; 
